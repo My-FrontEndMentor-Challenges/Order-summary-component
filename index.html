@@ -8,34 +8,36 @@
     <title>Order summary component</title>
   </head>
   <body>
-    <div class="summary-container">
-      <img
-        src="./images/illustration-hero.svg"
-        alt="hero-illustration"
-        class="summary-img"
-      />
-      <!-- Main text -->
-      <div class="summary-text-content">
-        <h1>Order Summary</h1>
-        <p>
-          You can now listen to millions of songs, audiobooks, and podcasts on
-          any device anywhere you like!
-        </p>
+    <section class="summary-component">
+      <div class="summary-container">
+        <img
+          src="./images/illustration-hero.svg"
+          alt="hero-illustration"
+          class="summary-img"
+        />
+        <!-- Main text -->
+        <div class="summary-text-content">
+          <h1>Order Summary</h1>
+          <p>
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+        </div>
+        <!-- Annual plan -->
+        <div class="summary-plan">
+          <span>
+            <img src="./images/icon-music.svg" alt="music-icon" />
+            <div class="annual-plan-container">
+              <p class="annual-plan-header">Annual Plan</p>
+              <p class="annual-plan-text">$59.99/year</p>
+            </div>
+          </span>
+          <a href="#">Change</a>
+        </div>
+        <!-- Button -->
+        <button class="main-btn">Proceed to Payment</button>
+        <p class="cancel-order">Cancel Order</p>
       </div>
-      <!-- Annual plan -->
-      <div class="summary-plan">
-        <span>
-          <img src="./images/icon-music.svg" alt="music-icon" />
-          <div class="annual-plan-container">
-            <p class="annual-plan-header">Annual Plan</p>
-            <p class="annual-plan-text">$59.99/year</p>
-          </div>
-        </span>
-        <a href="#">Change</a>
-      </div>
-      <!-- Button -->
-      <button class="main-btn">Proceed to Payment</button>
-      <p class="cancel-order">Cancel Order</p>
-    </div>
+    </section>
   </body>
 </html>
